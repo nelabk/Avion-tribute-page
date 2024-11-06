@@ -1,0 +1,132 @@
+* {
+    font-family: 'Inter';
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+.topnav {
+    background-color: #8e518d;
+    overflow: hidden;
+}
+
+.topnav a {
+    text-decoration: none;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-family: "Playwrite GB S", serif;
+}
+
+.topnav a:hover, #tribute-link a:hover {
+    background-color: #d7c0d0;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #c86fc9;
+    color: white;
+}
+
+figure {
+    padding: 4px;
+    margin: auto;
+}
+
+#img-caption {
+    background-color: #d7c0d0;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+#title {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+#tribute-info > p {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Playwrite GB S", serif;
+    color:#8e518d;
+}
+
+#tribute-link a {
+    background-color:#c86fc9;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 30%;
+}
+
+#img-bio {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.heading {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 40px;
+    width: 50%;
+    margin: auto;
+}
+
+.caption {
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 15px;
+    font-family: "Playwrite GB S", serif;
+    color:#8e518d;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .column1 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
